@@ -71,8 +71,8 @@ build_targets <- function(table_schema,
                   ),
                   list(
                     "rel" = "describedby",
-                    "href" = catalog_config$dashboard_url,
-                    "title" = catalog_config$dashboard_title,
+                    "href" = catalog_config$documentation_url,
+                    "title" = catalog_config$about_title,
                     "type" = "text/html"
                   )
                 )),
